@@ -1,0 +1,34 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2023-05-04T07:35:04.1738821Z"
+    },
+    "storage1": {
+      "restored": true,
+      "restoreTime": "2023-05-04T07:37:57.3721248Z"
+    }
+  },
+  "parameters": {
+    "mssql1.subscriptionId": {
+      "Name": "mssql1.subscriptionId",
+      "Type": "subscription",
+      "Value": "ab63e7f9-b92e-4f3f-96c4-ead1009f2b5c"
+    },
+    "mssql1.resourceGroupName": {
+      "Name": "mssql1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "shivam-resourcegroup"
+    },
+    "storage1.resourceGroupName": {
+      "Name": "storage1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "shivam-resourcegroup"
+    },
+    "storage1.subscriptionId": {
+      "Name": "storage1.subscriptionId",
+      "Type": "subscription",
+      "Value": "ab63e7f9-b92e-4f3f-96c4-ead1009f2b5c"
+    }
+  }
+}

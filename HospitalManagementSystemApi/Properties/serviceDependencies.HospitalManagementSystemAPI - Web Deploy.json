@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/shivam-server/databases/HMSDb",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:SqlConnString",
+      "dynamicId": null
+    },
+    "storage1": {
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Storage/storageAccounts/storageacchms",
+      "type": "storage.azure",
+      "connectionId": "ConnectionStrings:StorAccConnString",
+      "dynamicId": null
+    }
+  }
+}
